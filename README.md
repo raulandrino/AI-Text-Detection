@@ -104,6 +104,9 @@ AI-Text-Detection/
 │ ├── AI_Human_reduced.csv
 │ └── README.md
 │
+├── docs/
+│ ├── Memoria.pdf
+│
 ├── models/
 │ ├── model_1_history.pkl
 │ ├── model_1.keras
@@ -118,16 +121,13 @@ AI-Text-Detection/
 │ ├── AI_vs_Human.ipynb
 │ └── AI_vs_Human.pdf
 │
-├── docs/
-│ ├── memoria.pdf
-│
 ├── src/
 │ ├── create_reduced_dataset.py
 │
-├── requirements.txt
 ├── .gitignore
 ├── LICENSE
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 📂 The data/ folder contains a reduced, balanced version of the original dataset (from Kaggle) for reproducibility.
