@@ -53,8 +53,9 @@ The workflow followed a **supervised learning approach**, including:
      | 4️⃣ Transformer Encoder + PositionalEmbedding | Adds positional context | Integer Encoding | **99.3%** |
 
 5. **Evaluation**
-   - Metrics: Accuracy, Precision, Recall, and Sensitivity.
-   - Validation with unseen human and AI-generated texts (e.g., Wikipedia, Tolkien, CNN articles, academic papers).
+   - Metrics: Accuracy.
+   - Loss: Binary Crossentropy.
+   - Validation with unseen human and AI-generated texts (e.g., Wikipedia, The Lord of the Rings, CNN articles, academic papers).
 
 ---
 
